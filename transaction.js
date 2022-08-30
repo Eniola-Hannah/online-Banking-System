@@ -8,8 +8,7 @@ const withdraw = () =>{
     } 
     else{
         balance = balance - inputAmount.value
-        display.innerText = "succesfully withdrawn " + inputAmount.value + "New balance = #" + balance
-        // display.innerText = `Successfully withrawn ${amount} New blance = # ${balance}`
+        display.innerText = `Successfully withrawn ${inputAmount.value} New blance = # ${balance}`
     }
 }
 
