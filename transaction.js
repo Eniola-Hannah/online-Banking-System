@@ -13,3 +13,15 @@ const withdraw = () =>{
     }
 }
 
+const deposit = () => {
+    if (amount != ""){
+        myBalance = Number(myBalance) + Number(amount)
+        display.innerText = "succesfully deposited " + amount + " " + "New balance = #" + myBalance
+    } else{
+        display.innerText ="Input an amount to be deposited"
+    }
+}
+
+const checkBalance = () =>{
+    display.innerText = "Current Balance = #" + myBalance
+}
