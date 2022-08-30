@@ -17,7 +17,7 @@ const deposit = () => {
     if (inputAmount.value == ""){
         display.innerText ="Input an amount to be deposited"
     } else{
-        myBalance = Number(balance) + Number(inputAmount.value)
+        balance = Number(balance) + Number(inputAmount.value)
         display.innerText = "succesfully deposited " + inputAmount.value + " " + "New balance = #" + balance
     }
 }
